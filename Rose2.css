@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #faf6f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Baby Pink Button Style */
+.baby-pink-btn {
+  background-color: #f4c2c2; /* Baby Pink Color */
+  color: #5c3a3a; /* Darker text for good readability */
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(244, 194, 194, 0.4);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.baby-pink-btn:hover {
+  background-color: #f8b3b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(244, 194, 194, 0.6);
+}
+
+/* Click/Active effect */
+.baby-pink-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(244, 194, 194, 0.4);
+}
